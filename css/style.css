@@ -15,6 +15,15 @@ body{
     font-size: 1.6rem;
 }
 
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+
 /* nawigacja */
 nav{
     font-size: 1.8rem;
@@ -36,4 +45,43 @@ nav{
 
 .fa-bars {
     color: #fff;
+}
+
+/* header */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item{
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one{
+    background-image: url('/img/bmw-4560531_640.jpg');
+}
+.carousel-img-two{
+    background-image: url('/img/car-engine-1548434_640.jpg');
+}
+.carousel-img-three{
+    background-image: url('/img/mustang-2338358_640.jpg');
+}
+@media (min-width: 1400px){
+    .carousel-item{
+        height: 600px;
+    }
+
+    .carousel-img-one{
+        background-image: url('/img/bmw-4560531_1920.jpg');
+    }
+    .carousel-img-two{
+        background-image: url('/img/car-engine-1548434_1920.jpg');
+    }
+    .carousel-img-three{
+        background-image: url('/img/mustang-2338358_1920.jpg');
+    }
 }
