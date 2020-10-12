@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background-color: #333;
+  
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
 }
@@ -70,6 +70,33 @@ header {
 .carousel-img-three{
     background-image: url('/img/mustang-2338358_640.jpg');
 }
+
+
+/* home */
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box i{
+    font-size: 4rem;    
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+.home-passion{
+    position: relative;
+    height: 350px;
+    background-image: url('/img/pagani-2769165_640.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+
+
 @media (min-width: 1400px){
     .carousel-item{
         height: 600px;
@@ -83,5 +110,10 @@ header {
     }
     .carousel-img-three{
         background-image: url('/img/mustang-2338358_1920.jpg');
+    }
+
+    .home-passion{
+        height: 500px;
+        background-image: url('/img/pagani-2769165_1920.jpg');
     }
 }
