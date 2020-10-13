@@ -156,6 +156,20 @@ header {
     background-position: center;
 }
 
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
 /* footer */
 footer {
     font-size: 1.4rem;
@@ -180,7 +194,7 @@ footer {
         text-align: right;
     }
     .aboutus-text-right {
-        padding-right: 2em;
+        padding-left: 2em;
         text-align: left;
     }
 
