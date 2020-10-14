@@ -242,6 +242,11 @@ header {
     text-transform: uppercase;
 }
 
+
+.contact-hero {
+    background-image: url('/img/contact/porsche-4795517_640.jpg');
+    background-position: 0 50%;
+}
 /* footer */
 footer {
     font-size: 1.4rem;
