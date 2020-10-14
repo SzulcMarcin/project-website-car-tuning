@@ -247,6 +247,33 @@ header {
     background-image: url('/img/contact/porsche-4795517_640.jpg');
     background-position: 0 50%;
 }
+
+.contact h2, .contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo{
+    font-size: 3rem;
+}
+
+.contact input, .contact select .contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: .3em .8em;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
 /* footer */
 footer {
     font-size: 1.4rem;
