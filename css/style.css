@@ -84,15 +84,15 @@ header {
 }
 
 .carousel-img-one {
-    background-image: url('./img/bmw-4560531_640.jpg');
+    background-image: url('../img/bmw-4560531_640.jpg');
 }
 
 .carousel-img-two {
-    background-image: url('./img/car-engine-1548434_640.jpg');
+    background-image: url('../img/car-engine-1548434_640.jpg');
 }
 
 .carousel-img-three {
-    background-image: url('./img/mustang-2338358_640.jpg');
+    background-image: url('../img/mustang-2338358_640.jpg');
 }
 
 
@@ -112,7 +112,7 @@ header {
 .home-passion {
     position: relative;
     height: 350px;
-    background-image: url('./img/pagani-2769165_640.jpg');
+    background-image: url('../img/pagani-2769165_640.jpg');
     background-position: center;
     background-size: cover;
     z-index: 0;
@@ -125,7 +125,7 @@ header {
 
 /* aboutus */
 .aboutus-hero {
-    background-image: url('./img/traffic-332857_640.jpg');
+    background-image: url('../img/traffic-332857_640.jpg');
     background-position: bottom;
 }
 
@@ -155,7 +155,7 @@ header {
 
 .aboutus-img {
     height: 300px;
-    background-image: url('./img/engine-1903129_640.jpg');
+    background-image: url('../img/engine-1903129_640.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -174,7 +174,7 @@ header {
 /* usługi */
 
 .service-hero {
-    background-image: url('./img/services/old-car.jpg');
+    background-image: url('../img/services/old-car.jpg');
     background-position: 0 75%;
 }
 
@@ -196,19 +196,19 @@ header {
 }
 
 .service-pricing .box-one {
-    background-image: url('./img/services/engine.jpg');
+    background-image: url('../img/services/engine.jpg');
 }
 
 .service-pricing .box-two {
-    background-image: url('./img/services/visual.jpg');
+    background-image: url('../img/services/visual.jpg');
 }
 
 .service-pricing .box-three {
-    background-image: url('./img/services/car-audio.jpg');
+    background-image: url('../img/services/car-audio.jpg');
 }
 
 .service-pricing .box-four {
-    background-image: url('./img/services/allinone.jpg');
+    background-image: url('../img/services/allinone.jpg');
 }
 
 .service-pricing .card-header {
@@ -228,7 +228,7 @@ header {
 /* projects */
 
 .projects-hero {
-    background-image: url('./img/projects/project-hero.jpg');
+    background-image: url('../img/projects/project-hero.jpg');
     background-position: center;
 }
 
@@ -244,7 +244,7 @@ header {
 
 
 .contact-hero {
-    background-image: url('./img/contact/porsche-4795517_640.jpg');
+    background-image: url('../img/contact/porsche-4795517_640.jpg');
     background-position: 0 50%;
 }
 
@@ -321,19 +321,19 @@ footer {
     }
 
     .carousel-img-one {
-        background-image: url('./img/bmw-4560531_1920.jpg');
+        background-image: url('../img/bmw-4560531_1920.jpg');
     }
 
     .carousel-img-two {
-        background-image: url('./img/car-engine-1548434_1920.jpg');
+        background-image: url('../img/car-engine-1548434_1920.jpg');
     }
 
     .carousel-img-three {
-        background-image: url('./img/mustang-2338358_1920.jpg');
+        background-image: url('../img/mustang-2338358_1920.jpg');
     }
 
     .home-passion {
         height: 500px;
-        background-image: url('./img/pagani-2769165_1920.jpg');
+        background-image: url('../img/pagani-2769165_1920.jpg');
     }
 }
